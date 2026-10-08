@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: セキュリティの報告 / Security report
+    url: https://gorilla-ai.jp/contact
+    about: 脆弱性は公開 Issue ではなくこちらから報告してください。 / Report vulnerabilities privately here.
+  - name: 株式会社ゴリラAI / Gorilla AI Inc.
+    url: https://gorilla-ai.jp/
+    about: 会社サイト / Company website

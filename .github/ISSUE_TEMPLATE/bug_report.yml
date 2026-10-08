@@ -1,0 +1,40 @@
+name: バグ報告 / Bug report
+description: 動作がおかしい、エラーが出るなどの報告 / Report something that is not working
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: 何が起きたか / What happened
+      description: 問題の内容を具体的に書いてください。 / Describe the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 再現手順 / Steps to reproduce
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期待する動作 / Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: 環境 / Environment
+      description: OS、バージョン、関連するツールのバージョンなど / OS, version, related tool versions
+      placeholder: |
+        - OS: macOS 15
+        - Version: v1.2.3
+  - type: textarea
+    id: logs
+    attributes:
+      label: ログ・スクリーンショット / Logs or screenshots
+      render: shell

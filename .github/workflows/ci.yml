@@ -1,0 +1,15 @@
+# プロジェクトの言語に合わせて書き換えてください。 / Replace with the project's real CI.
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Placeholder
+        run: echo "Replace this step with lint / test commands for your project."
